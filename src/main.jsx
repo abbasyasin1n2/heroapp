@@ -6,6 +6,7 @@ import { RouterProvider } from "react-router/dom";
 import MainLayout from './layouts/MainLayout.jsx';
 import Home from './pages/Home.jsx';
 import Apps from './pages/Apps.jsx';
+import AppDetails from './pages/AppDetails.jsx';
 import Installation from './pages/Installation.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "apps",
         element: <Apps />
+      },
+      {
+        path: "apps/:id",
+        element: <AppDetails />
       },
       {
         path: "installation",

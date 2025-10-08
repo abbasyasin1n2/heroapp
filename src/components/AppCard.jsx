@@ -1,13 +1,20 @@
 import { Link } from 'react-router';
 import { FaDownload } from 'react-icons/fa';
 
+// Helper function to get the correct image path
+const getImageUrl = (imagePath) => {
+  // Extract the filename from the path (e.g., "src/assets/appImages/ridmik.webp" -> "ridmik.webp")
+  const filename = imagePath.split('/').pop();
+  return new URL(`../assets/appImages/${filename}`, import.meta.url).href;
+};
+
 const AppCard = ({ app }) => {
   return (
     <Link to={`/apps/${app.id}`} className="group">
       <div className="card bg-base-100 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
         <figure className="px-4 pt-4">
           <img 
-            src={app.image} 
+            src={getImageUrl(app.image)} 
             alt={app.title}
             className="w-full h-32 object-cover rounded-lg"
           />
