@@ -1,16 +1,2 @@
-import { useState } from 'react'
-
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-    
-      
-    </>
-  )
-}
-
-export default App
+// App component is now replaced by RouterProvider in main.jsx
+// This file can be removed or kept for future use

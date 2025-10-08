@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "src/assets/appImages/ridmik.webp",
+    "title": "Ridmik Keyboard",
+    "companyName": "Ridmik Labs",
+    "description": "Ridmik Keyboard is a smart Bangla typing app with advanced AI features. It offers intelligent word prediction, voice typing, emoji support, and customizable themes. Perfect for Bengali speakers who want fast and accurate typing experience.",
+    "size": 45,
+    "reviews": 125000,
+    "ratingAvg": 4.2,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 72000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "src/assets/appImages/djplay.webp",
+    "title": "djay Free",
+    "companyName": "algoriddim",
+    "description": "djay transforms your device into a full-featured DJ system. Mix music, apply effects, and create amazing mixes with this professional DJ app. Features include beat matching, crossfading, and real-time audio effects.",
+    "size": 128,
+    "reviews": 89000,
+    "ratingAvg": 4.5,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 890 },
+      { "name": "2 star", "count": 1780 },
+      { "name": "3 star", "count": 8900 },
+      { "name": "4 star", "count": 26700 },
+      { "name": "5 star", "count": 52730 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "src/assets/appImages/stayfree.webp",
+    "title": "Time Clocker",
+    "companyName": "Burock Games",
+    "description": "Time Clocker is a powerful time tracking app for freelancers and professionals. Track work hours, manage projects, and generate detailed reports. Features include GPS tracking, offline mode, and team collaboration tools.",
+    "size": 67,
+    "reviews": 45000,
+    "ratingAvg": 4.3,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 1350 },
+      { "name": "2 star", "count": 2700 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 15750 },
+      { "name": "5 star", "count": 25200 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "src/assets/appImages/telegram.webp",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Telegram is a cloud-based messaging app with focus on speed and security. It offers end-to-end encryption, group chats up to 200,000 members, file sharing up to 2GB, and cross-platform synchronization.",
+    "size": 89,
+    "reviews": 2100000,
+    "ratingAvg": 4.7,
+    "downloads": 850000000,
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 63000 },
+      { "name": "3 star", "count": 105000 },
+      { "name": "4 star", "count": 315000 },
+      { "name": "5 star", "count": 1575000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "src/assets/appImages/swiftbackup.webp",
+    "title": "Swift Backup",
+    "companyCompanyName": "Swift Apps",
+    "description": "Swift Backup is a comprehensive backup solution for Android devices. Backup apps, data, SMS, contacts, and more to cloud storage or local storage. Features include scheduled backups and easy restoration.",
+    "size": 34,
+    "reviews": 78000,
+    "ratingAvg": 4.4,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 2340 },
+      { "name": "2 star", "count": 4680 },
+      { "name": "3 star", "count": 15600 },
+      { "name": "4 star", "count": 27300 },
+      { "name": "5 star", "count": 28080 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "src/assets/appImages/samsungwallet.webp",
+    "title": "Samsung Wallet",
+    "companyName": "Samsung Electronics",
+    "description": "Samsung Wallet combines Samsung Pay, Samsung Pass, and more into one secure app. Store payment cards, loyalty cards, boarding passes, and digital keys. Secure and convenient digital wallet experience.",
+    "size": 156,
+    "reviews": 340000,
+    "ratingAvg": 4.1,
+    "downloads": 45000000,
+    "ratings": [
+      { "name": "1 star", "count": 17000 },
+      { "name": "2 star", "count": 34000 },
+      { "name": "3 star", "count": 68000 },
+      { "name": "4 star", "count": 119000 },
+      { "name": "5 star", "count": 102000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "src/assets/appImages/whatsappbusiness.webp",
+    "title": "WhatsApp Business",
+    "companyName": "WhatsApp Inc.",
+    "description": "WhatsApp Business helps small businesses connect with customers. Features include business profile, quick replies, labels, and business messaging tools. Free to use with end-to-end encryption.",
+    "size": 112,
+    "reviews": 890000,
+    "ratingAvg": 4.6,
+    "downloads": 280000000,
+    "ratings": [
+      { "name": "1 star", "count": 17800 },
+      { "name": "2 star", "count": 26700 },
+      { "name": "3 star", "count": 89000 },
+      { "name": "4 star", "count": 267000 },
+      { "name": "5 star", "count": 489500 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "src/assets/appImages/pinterest.webp",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Pinterest is a visual discovery platform where people find ideas for their life. Discover recipes, home decor, fashion, travel destinations, and more. Save pins to organized boards and get personalized recommendations.",
+    "size": 78,
+    "reviews": 1200000,
+    "ratingAvg": 4.3,
+    "downloads": 180000000,
+    "ratings": [
+      { "name": "1 star", "count": 36000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 420000 },
+      { "name": "5 star", "count": 504000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "src/assets/appImages/windycom.webp",
+    "title": "Windy.com",
+    "companyName": "Windy",
+    "description": "Windy.com is a professional weather app with detailed forecasts, wind maps, and weather radar. Perfect for outdoor enthusiasts, pilots, and weather enthusiasts. Features include 3D weather visualization and detailed meteorological data.",
+    "size": 56,
+    "reviews": 67000,
+    "ratingAvg": 4.8,
+    "downloads": 8900000,
+    "ratings": [
+      { "name": "1 star", "count": 670 },
+      { "name": "2 star", "count": 1340 },
+      { "name": "3 star", "count": 6700 },
+      { "name": "4 star", "count": 20100 },
+      { "name": "5 star", "count": 43190 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "src/assets/appImages/linkedin.webp",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "description": "LinkedIn is the world's largest professional network. Connect with colleagues, find jobs, share insights, and build your professional brand. Features include job search, networking, and professional content sharing.",
+    "size": 134,
+    "reviews": 2400000,
+    "ratingAvg": 4.2,
+    "downloads": 420000000,
+    "ratings": [
+      { "name": "1 star", "count": 96000 },
+      { "name": "2 star", "count": 144000 },
+      { "name": "3 star", "count": 240000 },
+      { "name": "4 star", "count": 720000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "src/assets/appImages/notion.webp",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "description": "Notion is an all-in-one workspace for notes, docs, wikis, and project management. Combine powerful features like databases, kanban boards, and collaborative editing in one flexible platform.",
+    "size": 98,
+    "reviews": 180000,
+    "ratingAvg": 4.5,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 3600 },
+      { "name": "2 star", "count": 7200 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 63000 },
+      { "name": "5 star", "count": 88200 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "src/assets/appImages/imo.webp",
+    "title": "imo",
+    "companyName": "imo.im",
+    "description": "imo is a free video calling and messaging app. Make HD video calls, send messages, and share photos with friends and family worldwide. Features include group video calls and instant messaging.",
+    "size": 76,
+    "reviews": 890000,
+    "ratingAvg": 4.0,
+    "downloads": 320000000,
+    "ratings": [
+      { "name": "1 star", "count": 89000 },
+      { "name": "2 star", "count": 133500 },
+      { "name": "3 star", "count": 178000 },
+      { "name": "4 star", "count": 267000 },
+      { "name": "5 star", "count": 222500 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "src/assets/appImages/microsoftteams.webp",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "description": "Microsoft Teams is a collaboration platform that combines workplace chat, video meetings, file storage, and application integration. Perfect for remote work and team collaboration with enterprise-grade security.",
+    "size": 145,
+    "reviews": 560000,
+    "ratingAvg": 4.1,
+    "downloads": 89000000,
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 56000 },
+      { "name": "3 star", "count": 112000 },
+      { "name": "4 star", "count": 196000 },
+      { "name": "5 star", "count": 168000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "src/assets/appImages/udemy.webp",
+    "title": "Udemy",
+    "companyName": "Udemy Inc.",
+    "description": "Udemy is an online learning platform with over 200,000 courses. Learn programming, design, business, marketing, and more from expert instructors. Features include offline learning and certificates of completion.",
+    "size": 89,
+    "reviews": 340000,
+    "ratingAvg": 4.4,
+    "downloads": 78000000,
+    "ratings": [
+      { "name": "1 star", "count": 10200 },
+      { "name": "2 star", "count": 20400 },
+      { "name": "3 star", "count": 51000 },
+      { "name": "4 star", "count": 119000 },
+      { "name": "5 star", "count": 149400 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "src/assets/appImages/brithishcouncel.webp",
+    "title": "EnglishScore",
+    "companyName": "British Council",
+    "description": "EnglishScore is a comprehensive English language learning app by British Council. Improve your English with interactive lessons, grammar exercises, and vocabulary building. Features include progress tracking and certification.",
+    "size": 67,
+    "reviews": 120000,
+    "ratingAvg": 4.6,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 62400 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "src/assets/appImages/instagramlite.webp",
+    "title": "Instagram Lite",
+    "companyName": "Meta Platforms",
+    "description": "Instagram Lite is a lightweight version of Instagram with essential features. Share photos, stories, and connect with friends using less data and storage space. Perfect for devices with limited resources.",
+    "size": 23,
+    "reviews": 670000,
+    "ratingAvg": 4.2,
+    "downloads": 180000000,
+    "ratings": [
+      { "name": "1 star", "count": 20100 },
+      { "name": "2 star", "count": 33500 },
+      { "name": "3 star", "count": 67000 },
+      { "name": "4 star", "count": 201000 },
+      { "name": "5 star", "count": 348400 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "src/assets/appImages/github.webp",
+    "title": "GitHub",
+    "companyName": "GitHub Inc.",
+    "description": "GitHub mobile app lets you manage your repositories on the go. Review code, manage issues, and collaborate with your team from anywhere. Features include code review, notifications, and repository management.",
+    "size": 45,
+    "reviews": 89000,
+    "ratingAvg": 4.3,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2670 },
+      { "name": "2 star", "count": 5340 },
+      { "name": "3 star", "count": 17800 },
+      { "name": "4 star", "count": 31150 },
+      { "name": "5 star", "count": 32040 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "src/assets/appImages/claude.webp",
+    "title": "Claude",
+    "companyName": "Anthropic",
+    "description": "Claude is an AI assistant that helps with writing, analysis, math, coding, and creative tasks. Features include document analysis, code generation, and conversational AI capabilities with advanced reasoning.",
+    "size": 78,
+    "reviews": 45000,
+    "ratingAvg": 4.7,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 15750 },
+      { "name": "5 star", "count": 23400 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "src/assets/appImages/facebook.webp",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "description": "Facebook connects you with friends, family, and communities around the world. Share updates, photos, and videos. Discover local events, join groups, and stay connected with the people who matter most.",
+    "size": 156,
+    "reviews": 5600000,
+    "ratingAvg": 3.8,
+    "downloads": 1200000000,
+    "ratings": [
+      { "name": "1 star", "count": 1120000 },
+      { "name": "2 star", "count": 1120000 },
+      { "name": "3 star", "count": 1120000 },
+      { "name": "4 star", "count": 1120000 },
+      { "name": "5 star", "count": 1120000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "src/assets/appImages/bravebrowser.webp",
+    "title": "Brave Browser",
+    "companyName": "Brave Software",
+    "description": "Brave Browser is a fast, private, and secure web browser. Features include built-in ad blocker, privacy protection, and Brave Rewards. Browse the web without ads and protect your privacy while earning rewards.",
+    "size": 98,
+    "reviews": 230000,
+    "ratingAvg": 4.5,
+    "downloads": 34000000,
+    "ratings": [
+      { "name": "1 star", "count": 4600 },
+      { "name": "2 star", "count": 9200 },
+      { "name": "3 star", "count": 23000 },
+      { "name": "4 star", "count": 80500 },
+      { "name": "5 star", "count": 113700 }
+    ]
+  }
+]
