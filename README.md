@@ -1,13 +1,34 @@
-# 🦸‍♂️ Assignment 008 — Hero IO
+# 🦸 HERO.IO - App Store Platform
 
-### 📅 Deadline For 60 marks: 09 October , 2025 (11:59 pm ⏱️)
+A modern, responsive app store platform built with React that allows users to browse, search, and manage their installed applications.
 
-### 📅 Deadline For 50 marks : 10 October , 2025 (11:59 pm⏱️)
+## 📝 Description
 
-### 📅 Deadline For 30 marks: Any time after 10 October , 2025.
+HERO.IO is a full-featured app store application that provides users with an intuitive interface to discover and manage mobile applications. Users can browse through a curated collection of apps, view detailed information including ratings and reviews, install/uninstall apps, and manage their installations. The platform features live search functionality, interactive charts for app ratings, and persistent storage using LocalStorage.
 
----
-## Private Repo-Link : please create your own public repository for this assignment.
+## 🛠️ Technologies Used
+
+- **React** - Frontend library for building user interfaces
+- **Vite** - Next-generation frontend build tool
+- **React Router v7** - Declarative routing for React applications
+- **Tailwind CSS** - Utility-first CSS framework
+- **DaisyUI** - Component library for Tailwind CSS
+- **Recharts** - Composable charting library for React
+- **React Toastify** - Toast notifications for React
+- **React Icons** - Popular icon library for React
+
+## ✨ Features
+
+- 🔍 Live search functionality with debouncing
+- 📱 Responsive design for all devices
+- 📊 Interactive rating charts using Recharts
+- 💾 LocalStorage persistence for installed apps
+- 🎨 Modern UI with Tailwind CSS and DaisyUI
+- 🔔 Toast notifications for user actions
+- 📈 Sorting functionality for installed apps
+- 🌐 Client-side routing with React Router
+- ⚡ Fast development and build with Vite
+
 ---
 
 # 🐣 Basic Requirements

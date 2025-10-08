@@ -6,6 +6,7 @@ import { getStoredApps, saveApp } from '../utils/localStorage';
 import iconDownloads from '../assets/icon-downloads.png';
 import iconRatings from '../assets/icon-ratings.png';
 import iconReview from '../assets/icon-review.png';
+import appErrorImage from '../assets/App-Error.png';
 
 // Helper function to get the correct image path
 const getImageUrl = (imagePath) => {
@@ -83,13 +84,24 @@ const AppDetails = () => {
 
   if (!app) {
     return (
-      <div className="container mx-auto px-4 py-16 text-center">
-        <div className="max-w-md mx-auto">
-          <h2 className="text-3xl font-bold mb-4">App Not Found</h2>
-          <p className="text-gray-600 mb-6">The app you're looking for doesn't exist.</p>
-          <a href="/apps" className="btn btn-primary">
-            Browse All Apps
-          </a>
+      <div className="min-h-screen flex items-center justify-center bg-base-200">
+        <div className="container mx-auto px-4 py-16 text-center">
+          <div className="max-w-2xl mx-auto">
+            <img 
+              src={appErrorImage} 
+              alt="App Not Found" 
+              className="w-full max-w-md mx-auto mb-8"
+            />
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              OPPS!! APP NOT FOUND
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              The app you're looking for doesn't exist in our collection.
+            </p>
+            <a href="/apps" className="btn btn-primary btn-lg">
+              Go Back!
+            </a>
+          </div>
         </div>
       </div>
     );
