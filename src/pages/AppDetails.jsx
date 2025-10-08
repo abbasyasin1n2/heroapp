@@ -127,7 +127,20 @@ const AppDetails = () => {
           {/* App Details */}
           <div className="md:col-span-9">
             <h1 className="text-3xl md:text-4xl font-bold mb-2">{app.title}</h1>
-            <p className="text-xl text-gray-600 mb-6">{app.companyName}</p>
+            <p className="text-xl mb-6">
+              <span className="text-gray-600">Developed by </span>
+              <span 
+                className="font-semibold"
+                style={{ 
+                  background: 'linear-gradient(to right, #632EE3, #9F62F2)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  backgroundClip: 'text'
+                }}
+              >
+                {app.companyName}
+              </span>
+            </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-3 gap-4 mb-6">
@@ -160,11 +173,12 @@ const AppDetails = () => {
             <button
               onClick={handleInstall}
               disabled={isInstalled}
-              className={`btn btn-lg w-full md:w-auto ${
+              className={`btn btn-lg w-full md:w-auto text-white border-none ${
                 isInstalled 
-                  ? 'btn-disabled bg-gray-400 cursor-not-allowed' 
-                  : 'btn-primary'
+                  ? 'bg-gray-400 cursor-not-allowed' 
+                  : ''
               }`}
+              style={!isInstalled ? { background: 'linear-gradient(to right, #10b981, #059669)' } : {}}
             >
               {isInstalled ? 'Installed' : `Install Now (${app.size} MB)`}
             </button>
@@ -208,9 +222,9 @@ const AppDetails = () => {
       </div>
 
       {/* Description Section */}
-      <div className="bg-base-100 rounded-lg shadow-lg p-6 md:p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">Description</h2>
-        <p className="text-gray-700 leading-relaxed text-lg">{app.description}</p>
+      <div className="bg-base-100 rounded-lg shadow-lg p-4 md:p-6 lg:p-8">
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-3 md:mb-4">Description</h2>
+        <p className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">{app.description}</p>
       </div>
     </div>
   );

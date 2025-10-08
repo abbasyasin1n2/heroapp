@@ -6,6 +6,7 @@ const Apps = () => {
   const [filteredApps, setFilteredApps] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
+  const [searching, setSearching] = useState(false);
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -31,6 +32,10 @@ const Apps = () => {
 
   // Debounced search functionality
   useEffect(() => {
+    if (searchQuery !== '') {
+      setSearching(true);
+    }
+    
     const timer = setTimeout(() => {
       if (searchQuery.trim() === '') {
         setFilteredApps(apps);
@@ -40,6 +45,7 @@ const Apps = () => {
         );
         setFilteredApps(filtered);
       }
+      setSearching(false);
     }, 300); // 300ms debounce
 
     return () => clearTimeout(timer);
@@ -95,7 +101,11 @@ const Apps = () => {
       </div>
 
       {/* App Grid */}
-      {filteredApps.length > 0 ? (
+      {searching ? (
+        <div className="flex justify-center items-center py-16">
+          <span className="loading loading-spinner loading-lg"></span>
+        </div>
+      ) : filteredApps.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {filteredApps.map((app) => (
             <AppCard key={app.id} app={app} />

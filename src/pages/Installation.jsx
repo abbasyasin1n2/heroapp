@@ -61,9 +61,9 @@ const Installation = () => {
     
     let sortedApps = [...installedApps];
     if (order === 'high-low') {
-      sortedApps.sort((a, b) => b.size - a.size);
+      sortedApps.sort((a, b) => b.downloads - a.downloads);
     } else if (order === 'low-high') {
-      sortedApps.sort((a, b) => a.size - b.size);
+      sortedApps.sort((a, b) => a.downloads - b.downloads);
     }
     setInstalledApps(sortedApps);
   };
@@ -110,7 +110,7 @@ const Installation = () => {
             onChange={handleSortChange}
             className="select select-bordered w-full md:w-64"
           >
-            <option value="default">Sort By Size</option>
+            <option value="default">Sort By Downloads</option>
             <option value="high-low">High-Low</option>
             <option value="low-high">Low-High</option>
           </select>

@@ -1,10 +1,12 @@
 import { Link } from 'react-router';
-import { FaTwitter, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import logo from '../assets/logo.png';
+import facebooklogo from '../assets/facebooklogo.png';
+import linkedinlogo from '../assets/linkedinlogo.png';
+import twitterlogo from '../assets/twitterlogo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-base-300 text-base-content py-8">
+    <footer className="bg-[#0B1437] text-base-content py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo and Brand */}
@@ -30,25 +32,25 @@ const Footer = () => {
                 href="https://twitter.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors"
+                className="hover:opacity-80 transition-opacity"
               >
-                <FaTwitter className="w-5 h-5" />
+                <img src={twitterlogo} alt="Twitter" className="w-6 h-6" />
               </a>
               <a 
                 href="https://linkedin.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors"
+                className="hover:opacity-80 transition-opacity"
               >
-                <FaLinkedin className="w-5 h-5" />
+                <img src={linkedinlogo} alt="LinkedIn" className="w-6 h-6" />
               </a>
               <a 
                 href="https://facebook.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors"
+                className="hover:opacity-80 transition-opacity"
               >
-                <FaFacebook className="w-5 h-5" />
+                <img src={facebooklogo} alt="Facebook" className="w-6 h-6" />
               </a>
             </div>
           </div>

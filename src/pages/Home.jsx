@@ -74,7 +74,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-purple-600 py-16 px-4">
+      <section className="py-16 px-4" style={{ background: 'linear-gradient(to right, #632EE3, #9F62F2)' }}>
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
             Trusted By Millions, Built For You
@@ -121,7 +121,11 @@ const Home = () => {
                 ))}
               </div>
               <div className="text-center">
-                <Link to="/apps" className="btn btn-primary btn-lg">
+                <Link 
+                  to="/apps" 
+                  className="btn btn-sm sm:btn-md md:btn-lg text-white border-none px-4 sm:px-6 md:px-8"
+                  style={{ background: 'linear-gradient(to right, #632EE3, #9F62F2)' }}
+                >
                   Show All
                 </Link>
               </div>
