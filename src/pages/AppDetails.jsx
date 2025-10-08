@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { toast } from 'react-toastify';
+import { getStoredApps, saveApp } from '../utils/localStorage';
 import iconDownloads from '../assets/icon-downloads.png';
 import iconRatings from '../assets/icon-ratings.png';
 import iconReview from '../assets/icon-review.png';
@@ -17,6 +18,7 @@ const AppDetails = () => {
   const { id } = useParams();
   const [app, setApp] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [isInstalled, setIsInstalled] = useState(false);
 
   useEffect(() => {
     const fetchApp = async () => {
@@ -29,6 +31,12 @@ const AppDetails = () => {
         const data = await response.json();
         const foundApp = data.find(app => app.id === parseInt(id));
         setApp(foundApp);
+        
+        // Check if app is already installed
+        if (foundApp) {
+          const installedApps = getStoredApps();
+          setIsInstalled(installedApps.includes(foundApp.id));
+        }
       } catch (err) {
         console.error('Error fetching app:', err);
       } finally {
@@ -40,10 +48,16 @@ const AppDetails = () => {
   }, [id]);
 
   const handleInstall = () => {
-    toast.success(`${app.title} (${app.size} MB) is being downloaded!`, {
-      position: "top-right",
-      autoClose: 3000,
-    });
+    if (!isInstalled && app) {
+      const success = saveApp(app.id);
+      if (success) {
+        setIsInstalled(true);
+        toast.success(`${app.title} installed successfully!`, {
+          position: "top-right",
+          autoClose: 3000,
+        });
+      }
+    }
   };
 
   const formatNumber = (num) => {
@@ -133,9 +147,14 @@ const AppDetails = () => {
             {/* Install Button */}
             <button
               onClick={handleInstall}
-              className="btn btn-primary btn-lg w-full md:w-auto"
+              disabled={isInstalled}
+              className={`btn btn-lg w-full md:w-auto ${
+                isInstalled 
+                  ? 'btn-disabled bg-gray-400 cursor-not-allowed' 
+                  : 'btn-primary'
+              }`}
             >
-              Install Now ({app.size} MB)
+              {isInstalled ? 'Installed' : `Install Now (${app.size} MB)`}
             </button>
           </div>
         </div>
